@@ -1,46 +1,74 @@
-# WarOutcomeAwareness-IndiaPakistan
-Nuclear Impact Model
-Notebook
-The Jupyter Notebook india_Vs_pakistanWar(Predicted_Sims).ipynb contains a data-driven model that simulates the environmental, economic, and societal impacts of hypothetical nuclear events using synthetic data. Developed by MD. MARUF MULLAH, the model analyzes key variables such as soot emissions, GDP impact, and famine risk to demonstrate data analysis techniques. The notebook includes code, synthetic datasets, and optional visualizations (e.g., plots of impact metrics). It is intended for academic and analytical purposes only, with the notebook’s name used for illustrative purposes and not reflecting real-world scenarios.
-Purpose
-The model showcases data analysis techniques for studying complex global scenarios, intended for educational and analytical use with synthetic data.
-Dataset
-The synthetic dataset in the notebook includes variables like:
+##WarOutcomeAwareness-IndiaPakistan
+Nuclear Impact Model – Classical and Quantum-Enhanced Simulation
+The Jupyter Notebook india_Vs_pakistanWar(Predicted_Sims).ipynb presents a data-driven simulation model that analyzes the environmental, economic, and societal impacts of hypothetical nuclear events using synthetic data. Developed by MD. MARUF MULLAH, this project includes both classical and quantum-inspired computing approaches to simulate post-conflict global impact metrics such as GDP loss, famine risk, soot-induced climate change, and human life loss.
 
-nukes_used: Number of nuclear devices.
-avg_yield_kt: Average yield in kilotons.
-soot_emission_Tg: Soot emissions in teragrams.
-human_lives_lost_millions: Estimated lives lost.
-gdp_impact_pct: Percentage impact on GDP.
-estimated_famine_risk_millions: Population at risk of famine.
+This notebook uses synthetic data for educational and analytical purposes only. The title is illustrative and does not reflect real-world events, predictions, or geopolitical scenarios.
+
+Purpose
+The model demonstrates data analysis techniques for exploring complex global scenarios using both classical simulation and quantum-inspired uncertainty modeling. It is intended for academic and research purposes with synthetic data.
+
+Dataset
+The synthetic dataset includes the following variables:
+
+nukes_used: Number of nuclear devices used
+
+avg_yield_kt: Average yield in kilotons
+
+target_city_population: Population per target city
+
+urbanization_level: Percentage of urban population
+
+soot_emission_Tg: Estimated soot emission (in Teragrams)
+
+human_lives_lost_millions: Estimated lives lost in millions
+
+gdp_impact_pct: Estimated GDP impact percentage
+
+expected_global_temp_drop_C: Estimated drop in global temperature in Celsius
+
+estimated_famine_risk_millions: Estimated number of people at risk of famine
+
+Quantum Computing Integration
+The notebook includes an additional section where quantum-inspired simulation is used to introduce probabilistic uncertainty into key outcome variables such as soot emission, temperature drop, and famine risk. This quantum-enhanced portion uses statistical modeling techniques that simulate quantum uncertainty for richer simulations and comparison with classical approaches.
 
 Requirements
-To run the model, install the following:
+To run the model, install the following dependencies:
+
 pip install -r requirements.txt
 
-Dependencies:
+Dependencies include:
 
 Python 3.8+
+
 pandas
+
 numpy
-matplotlib (if visualizations are included)
+
+matplotlib
+
+seaborn
 
 Usage
 
-Download india_Vs_pakistanWar(Predicted_Sims).ipynb from this repository.
+Download or clone this repository from GitHub:
 
-Install dependencies using requirements.txt.
+https://github.com/marufmullah50/WarOutcomeAwareness-IndiaPakistan
+
+Install the required libraries using the requirements.txt file:
+
+pip install -r requirements.txt
 
 Open the notebook in Jupyter:
+
 jupyter notebook india_Vs_pakistanWar(Predicted_Sims).ipynb
 
-
-Run the cells to explore the model’s outputs.
-
+Run the notebook cells to generate synthetic data, perform analysis, and visualize relationships between variables.
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 Disclaimer
-This model uses synthetic data for educational purposes and does not reflect real-world events, predictions, or geopolitical scenarios. The notebook’s name is for illustrative purposes only and does not imply any real-world conflict or endorsement.
+This project uses synthetic data for educational and analytical purposes. It does not reflect real-world scenarios or predictions. The notebook’s name is used for illustrative purposes only and does not imply any real-world conflict, endorsement, or geopolitical assumption.
+
 Contributing
-Suggestions or improvements are welcome! Please open an issue on GitHub.
+Contributions, suggestions, or improvements (such as additional quantum modeling or data visualizations) are welcome. Please open an issue or submit a pull request on the GitHub repository.
